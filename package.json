@@ -1,0 +1,21 @@
+{
+  "name": "rising",
+  "version": "1.0.0",
+  "description": "Backend Project with Express.js, Sqlite and Sequelize",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
